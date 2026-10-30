@@ -37,4 +37,23 @@ describe('REACT_COMMUNITIES', () => {
       })
     );
   });
+
+  it('lists the React Pune community with its Luma link and organizers', () => {
+    const pune = REACT_COMMUNITIES.find((community) => community.slug === 'react-pune');
+
+    expect(pune).toEqual(
+      expect.objectContaining({
+        id: 'react-pune',
+        name: 'React Pune',
+        city: 'Pune',
+        website: 'https://luma.com/reactpune',
+      })
+    );
+    expect(pune?.organizers.map((organizer) => organizer.id)).toEqual([
+      'faizan-akhtar',
+      'pratik-kale',
+      'vipul-a-m',
+    ]);
+    expect(REACT_COMMUNITIES.some((community) => community.slug === 'reactjs-friends-pune')).toBe(false);
+  });
 });

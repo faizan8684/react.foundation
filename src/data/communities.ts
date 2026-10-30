@@ -125,9 +125,9 @@ export const REACT_COMMUNITIES: Community[] = [
     "meetup_url": "https://www.meetup.com/react-en-buenos-aires/"
   },
   {
-    "id": "reactjs-friends-pune",
-    "name": "ReactJS & Friends",
-    "slug": "reactjs-friends-pune",
+    "id": "react-pune",
+    "name": "React Pune",
+    "slug": "react-pune",
     "city": "Pune",
     "region": "Maharashtra",
     "country": "India",
@@ -137,6 +137,16 @@ export const REACT_COMMUNITIES: Community[] = [
       "lng": 73.8567
     },
     "organizers": [
+      {
+        "id": "faizan-akhtar",
+        "name": "Faizan Akhtar",
+        "role": "Lead Organizer"
+      },
+      {
+        "id": "pratik-kale",
+        "name": "Pratik Kale",
+        "role": "Lead Organizer"
+      },
       {
         "id": "vipul-a-m",
         "name": "Vipul A M",
@@ -148,7 +158,7 @@ export const REACT_COMMUNITIES: Community[] = [
       "meetup",
       "conference"
     ],
-    "description": "Covers React JS ecosystem including Redux, Relay, GraphQL and related technologies. Collaborates with React India network. Regular meetups and conference organization.",
+    "description": "React Pune is a community for developers in Pune interested in modern frontend and web development.",
     "member_count": 6600,
     "typical_attendance": 120,
     "meeting_frequency": "monthly",
@@ -158,8 +168,8 @@ export const REACT_COMMUNITIES: Community[] = [
     "verified": true,
     "cois_tier": "gold",
     "cois_score": 0.87,
-    "meetup_url": "https://www.meetup.com/reactjs-and-friends/",
-    "last_event_date": "2024-12-20",
+    "website": "https://luma.com/reactpune",
+    "last_event_date": "2026-10-10",
     "created_at": "2025-10-24T14:57:54.936Z",
     "updated_at": "2025-10-24T14:57:54.936Z"
   },
